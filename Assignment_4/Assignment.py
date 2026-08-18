@@ -64,6 +64,7 @@ faq_count = df.groupby('category')['question'].count()
 print(faq_count)
 
 #Q6: Provide example of one with a tie and other without a tie query using score_hypothesis function
+tie_query = "fee"
 tie_results = score_hypothesis(df, tie_query)
 for question, answer, score in tie_results:
     if score == tie_results[0][2]:

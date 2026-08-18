@@ -57,7 +57,7 @@ target = 0
 new_entry = input("Enter new keyword:")   # adding "spending" to keywords
 current_keywords = df.loc[target, 'keywords']
 df.loc[target, 'keywords'] = current_keywords + " " + new_entry
-df.to_csv('Assignment4\1024160050_faq_data.csv', index=False)
+df.to_csv('1024160050_faq_data.csv', index=False)
 
 #Q5: How many FAQ entries are there in each category?
 faq_count = df.groupby('category')['question'].count()

@@ -1,0 +1,31 @@
+ProductID,ProductName,Category,UnitPrice,CostPrice,StockQuantity,ReorderLevel,Rating,UnitsSold,Supplier,ProfitPerUnit,TotalProfit
+2001,Wireless Mouse,Electronics,18.0,9.79,65,15,4.0,584,LogiSupply Co.,8.21,4794.64
+2002,Mechanical Keyboard,Electronics,62.0,42.64,149,25,4.6,330,TechCorp Global,19.36,6388.8
+2003,USB-C Cable,Accessories,9.0,5.7,35,30,4.7,848,Visionary Gear,3.3,2798.3999999999996
+2004,Power Bank,Electronics,35.0,20.99,87,15,4.5,1294,TechCorp Global,14.010000000000002,18128.940000000002
+2005,Laptop Stand,Accessories,28.0,13.69,181,15,4.8,640,LogiSupply Co.,14.31,9158.4
+2006,Webcam,Electronics,48.0,23.47,32,25,4.5,1159,Nexus Components,24.53,28430.27
+2007,Headphones,Electronics,75.0,34.84,146,15,4.8,624,Apex Office Furniture,40.16,25059.839999999997
+2008,Phone Case,Accessories,14.0,9.33,103,15,4.7,1283,LogiSupply Co.,4.67,5991.61
+2009,Smart Watch,Wearables,120.0,72.03,74,25,4.3,1366,TechCorp Global,47.97,65527.02
+2010,Fitness Band,Wearables,55.0,34.49,28,25,3.9,1209,Apex Office Furniture,20.509999999999998,24796.589999999997
+2011,Desk Lamp,Home Office,32.0,14.56,23,10,4.2,677,TechCorp Global ,17.439999999999998,11806.88
+2012,Office Chair,Home Office,180.0,124.65,104,30,4.5,781,TechCorp Global,55.349999999999994,43228.35
+2013,Notebook,Stationery,7.0,4.61,67,30,4.5,656,Nexus Components,2.3899999999999997,1567.8399999999997
+2014,Backpack,Accessories,42.0,21.13,144,15,4.5,1112,Apex Office Furniture,20.87,23207.440000000002
+2015,Bluetooth Speaker,Electronics,58.0,28.74,98,30,4.1,745,Apex Office Furniture,29.26,21798.7
+2016,Monitor,Electronics,21.0,10.41,106,15,4.4,895,Nexus Components,10.59,9478.05
+2017,HDMI Cable,Accessories,11.0,5.79,125,10,4.2,1151,LogiSupply Co.,5.21,5996.71
+2018,Microphone,Electronics,85.0,49.4,202,25,4.9,1463,TechCorp Global,35.6,52082.8
+2019,Tablet,Electronics,260.0,145.08,213,25,4.7,1454,Visionary Gear,114.91999999999999,167093.68
+2020,Gaming Controller,Gaming,68.0,35.55,186,25,4.6,1471,TechCorp Global,32.45,47733.950000000004
+2021,Gaming Headset,Electronics,75.0,45.22,22,30,4.1,1354,TechCorp Global,29.78,40322.12
+2022,Desk Mat,Accessories,15.0,7.27,189,10,4.1,289,LogiSupply Co.,7.73,2233.9700000000003
+2023,4K Monitor,Electronics,320.0,167.37,49,30,3.8,1348,TechCorp Global,152.63,205745.24
+2024,Ergonomic Chair,Furniture,250.0,135.4,220,30,4.6,1406,Nexus Components,114.6,161127.6
+2025,LED Desk Lamp,Furniture,32.0,18.05,95,10,3.9,732,Nexus Components,13.95,10211.4
+2026,Webcam 1080p,Electronics,49.0,31.67,178,10,4.3,727,Apex Office Furniture,17.33,12598.909999999998
+2027,Portable Speaker,Electronics,45.0,22.5,64,10,4.0,1072,Visionary Gear,22.5,24120.0
+2028,External Hard Drive 1TB,Electronics,58.0,33.56,118,10,4.8,1382,TechCorp Global,24.439999999999998,33776.079999999994
+2029,Cable Management Clips,Accessories,8.0,4.78,146,25,4.3,1482,TechCorp Global,3.2199999999999998,4772.04
+2030,Standing Desk Converter,Furniture,180.0,83.09,16,20,4.4,809,LogiSupply Co.,96.91,78400.19

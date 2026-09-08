@@ -1,6 +1,6 @@
 import pandas as pd 
 import numpy as np
-data = pd.read_csv('practice/products.csv')
+data = pd.read_csv('Extra_Assignment/products.csv')
 print(data)
 print("Starting 5 rows")
 print(data.head())
@@ -59,7 +59,7 @@ print("Count of highly-rated products:", np.sum(high_rating_mask))
 updated_data = data.copy()
 updated_data['ProfitPerUnit'] = profit_per_unit
 updated_data['TotalProfit'] = total_profit
-updated_data.to_csv('practice/updated_products.csv', index=False)
+updated_data.to_csv('Extra_Assignment/updated_products.csv', index=False)
 print("Updated Data with Profit columns:", updated_data.head())
 
 
@@ -85,4 +85,4 @@ def calculate_financial_metrics(data) :
 
 df_out = calculate_financial_metrics(data)
 print("Financial metrics:", df_out.head())
-df_out.to_csv('practice/financial_metrics.csv', index=False)
+df_out.to_csv('Extra_Assignment/financial_metrics.csv', index=False)

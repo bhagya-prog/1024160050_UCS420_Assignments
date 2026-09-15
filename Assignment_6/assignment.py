@@ -38,4 +38,53 @@ print(arr)
 print("First row:", arr[0])
 print("Last row:", arr[-1])
 print("Second column:", arr[:, 1])
-print("Elements from row 1-2 and column 2-3:", arr[1:3, 2:4])
+print("Elements from row 1-2 and column 2-3:", arr[0:2, 1:3])
+
+flattened = arr.flatten()
+raveled = arr.ravel()
+print("Using flatten():", flattened)
+print("Using ravel():", raveled)
+
+raveled[0] = 1000
+print("After modification, raveled array:", raveled)
+print("Original", arr)
+
+flattened[1] = 2000
+print("After modifying flatten, flattened array:", flattened)
+print("Properties:\n")
+print("Shape:", arr.shape)
+print("Dimensions:", arr.ndim)
+print("Size:", arr.size)
+print("Data type:", arr.dtype)
+
+
+#Q4
+X = np.array([
+    [6,70,3],
+    [5,50,6],
+    [8,80,2],
+    [4,30,8]
+])
+y = np.array([40,65,30,85])
+print("Shape:", X.shape)
+print("Dimensions:", X.ndim)
+X_transpose = X.T
+print("Transpose:", X_transpose)
+print("Rows of X represents users, columns represent features. In X_transpose, rows represent features and columns represent users.")
+
+XtX = X.T @ X
+print("X.T @ X:", XtX)
+inverse = np.linalg.inv(XtX)
+print("Inverse of X.T @ X:", inverse)
+
+beta = np.linalg.inv(X.T @ X) @ X.T @ y
+print("coefficients:", beta)
+
+print("Sleep coefficient:", beta[0])
+print("Activity coefficient:", beta[1])
+print("Stress coefficient:", beta[2])
+
+new_user = np.array([5,40,7])
+predicted_score = new_user @ beta
+print("New user:", new_user)
+print("Predicted score:", predicted_score)
